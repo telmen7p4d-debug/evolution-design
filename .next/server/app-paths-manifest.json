@@ -1,0 +1,16 @@
+{
+  "/[locale]/about/page": "app/[locale]/about/page.js",
+  "/[locale]/account/page": "app/[locale]/account/page.js",
+  "/[locale]/cart/page": "app/[locale]/cart/page.js",
+  "/[locale]/checkout/page": "app/[locale]/checkout/page.js",
+  "/[locale]/contact/page": "app/[locale]/contact/page.js",
+  "/[locale]/gallery/page": "app/[locale]/gallery/page.js",
+  "/[locale]/login/page": "app/[locale]/login/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/products/[id]/page": "app/[locale]/products/[id]/page.js",
+  "/[locale]/products/page": "app/[locale]/products/page.js",
+  "/[locale]/register/page": "app/[locale]/register/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
+}
