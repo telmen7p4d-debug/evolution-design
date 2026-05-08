@@ -1,0 +1,16 @@
+{
+  "/[locale]/about/page": "/[locale]/about",
+  "/[locale]/account/page": "/[locale]/account",
+  "/[locale]/cart/page": "/[locale]/cart",
+  "/[locale]/checkout/page": "/[locale]/checkout",
+  "/[locale]/contact/page": "/[locale]/contact",
+  "/[locale]/gallery/page": "/[locale]/gallery",
+  "/[locale]/login/page": "/[locale]/login",
+  "/[locale]/page": "/[locale]",
+  "/[locale]/products/[id]/page": "/[locale]/products/[id]",
+  "/[locale]/products/page": "/[locale]/products",
+  "/[locale]/register/page": "/[locale]/register",
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/favicon.ico/route": "/favicon.ico"
+}
