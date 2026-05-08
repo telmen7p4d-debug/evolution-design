@@ -1,0 +1,1729 @@
+{
+  "version": "2.11",
+  "children": [
+    {
+      "type": "frame",
+      "id": "VP6Gt",
+      "x": 0,
+      "y": 0,
+      "name": "Option A - Clean Minimal",
+      "width": 1440,
+      "height": 3500,
+      "fill": "#FAFAFA",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "dlrPl",
+          "name": "headerA",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "#ffffffcc",
+          "padding": [
+            16,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Kxudf",
+              "name": "logoA",
+              "fill": "#1A1A1A",
+              "content": "EVOLUTION",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "qZyaj",
+              "name": "navA",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rXg4h",
+                  "fill": "#1A1A1A",
+                  "content": "Products",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "aaiFd",
+                  "fill": "#1A1A1A",
+                  "content": "About",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "wbiK5",
+                  "fill": "#1A1A1A",
+                  "content": "Services",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "p7lst",
+                  "fill": "#1A1A1A",
+                  "content": "Contact",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "hq2ic",
+          "name": "heroA",
+          "width": "fill_container",
+          "height": 900,
+          "layout": "vertical",
+          "gap": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "Dn1cq",
+              "name": "heroTitleA",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "Redefine Luxury",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 80,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "OS2uj",
+              "name": "heroSubA",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Experience the evolution of premium fashion",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "DtAlb",
+              "name": "heroCTAA",
+              "fill": "#1A1A1A",
+              "cornerRadius": 30,
+              "padding": [
+                24,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "h9Mcd",
+                  "fill": "#FFFFFF",
+                  "content": "Shop Collection",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ulgHg",
+          "name": "productsA",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "G1PSZ",
+              "name": "prodTitleA",
+              "fill": "#1A1A1A",
+              "textGrowth": "fixed-width",
+              "width": "fill_container",
+              "content": "Featured Collection",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "c2RFQ",
+              "name": "prodGridA",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "NqihA",
+                  "name": "prodCard1A",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "Dlzle",
+                      "name": "prodImg1A",
+                      "width": 340,
+                      "height": 420,
+                      "fill": "#F0F0F0",
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "fKD7n",
+                      "name": "prodName1A",
+                      "fill": "#1A1A1A",
+                      "content": "Leather Jacket",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "GdC86",
+                      "name": "prodPrice1A",
+                      "fill": "#666666",
+                      "content": "$2,450",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "Umkjp",
+                  "name": "prodCard2A",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "l8Aket",
+                      "name": "prodImg2A",
+                      "width": 340,
+                      "height": 420,
+                      "fill": "#F0F0F0",
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "mqz8Z",
+                      "name": "prodName2A",
+                      "fill": "#1A1A1A",
+                      "content": "Cashmere Coat",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "PcAGB",
+                      "name": "prodPrice2A",
+                      "fill": "#666666",
+                      "content": "$3,200",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "qPeO2",
+                  "name": "prodCard3A",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "E93nO",
+                      "name": "prodImg3A",
+                      "width": 340,
+                      "height": 420,
+                      "fill": "#F0F0F0",
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "Hpn0u",
+                      "name": "prodName3A",
+                      "fill": "#1A1A1A",
+                      "content": "Silk Dress",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "eCSuN",
+                      "name": "prodPrice3A",
+                      "fill": "#666666",
+                      "content": "$1,890",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "u9CCh",
+          "name": "aboutA",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "b73dTU",
+              "name": "aboutTitleA",
+              "fill": "#1A1A1A",
+              "content": "Our Story",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "J3m7U",
+              "name": "aboutTextA",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Founded on the principles of uncompromising quality and avant-garde design, Evolution represents the pinnacle of luxury fashion. Each piece is crafted with meticulous attention to detail.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "VKlIZ",
+          "name": "testimonialsA",
+          "width": "fill_container",
+          "fill": "#F0F0F0",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "dhiMt",
+              "name": "testTitleA",
+              "fill": "#1A1A1A",
+              "content": "What Our Clients Say",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "MWhad",
+              "name": "testGridA",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "XcZiz",
+                  "name": "testCard1A",
+                  "width": 400,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "EySg4",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"The quality is unmatched. Every piece feels like a work of art.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "kUV4w",
+                      "fill": "#999999",
+                      "content": "— Sarah Mitchell",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "iu6nP",
+                  "name": "testCard2A",
+                  "width": 400,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "fkN4D",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"Evolution has transformed my wardrobe. The attention to detail is extraordinary.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "OCbe0",
+                      "fill": "#999999",
+                      "content": "— James Chen",
+                      "fontFamily": "SF Pro Display",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "gMPms",
+          "name": "ctaA",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            160
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "vNRp9",
+              "name": "ctaTitleA",
+              "fill": "#FFFFFF",
+              "content": "Join the Evolution",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "gu51A",
+              "name": "ctaSubA",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Subscribe for exclusive access to new collections and limited editions.",
+              "textAlign": "center",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "ka5k3",
+              "name": "ctaBtnA",
+              "fill": "#FFFFFF",
+              "cornerRadius": 30,
+              "padding": [
+                20,
+                40
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "rke5Z",
+                  "fill": "#1A1A1A",
+                  "content": "Subscribe Now",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "y9KHB3",
+          "name": "footerA",
+          "width": "fill_container",
+          "fill": "#F5F5F5",
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "e5ohRJ",
+              "name": "footerLogoA",
+              "fill": "#1A1A1A",
+              "content": "EVOLUTION",
+              "fontFamily": "SF Pro Display",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 2
+            },
+            {
+              "type": "frame",
+              "id": "YQZo7",
+              "name": "footerNavA",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "QzUYN",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "i0kCD",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "Anoqa",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "SF Pro Display",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "RO09y",
+      "x": 1600,
+      "y": 0,
+      "name": "Option B - Dark Luxury",
+      "width": 1440,
+      "height": 3500,
+      "fill": "#0A0A0A",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "srj14",
+          "name": "headerB",
+          "width": "fill_container",
+          "height": 64,
+          "padding": [
+            16,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "jyKTF",
+              "name": "logoB",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "HnKhz",
+              "name": "navB",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "SlrYq",
+                  "fill": "#FFFFFF",
+                  "content": "PRODUCTS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "s219m",
+                  "fill": "#FFFFFF",
+                  "content": "ABOUT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "fxs00",
+                  "fill": "#FFFFFF",
+                  "content": "SERVICES",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "GZ05p",
+                  "fill": "#FFFFFF",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "BbNOS",
+          "name": "heroB",
+          "width": "fill_container",
+          "height": 900,
+          "layout": "vertical",
+          "gap": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "T3aSQ6",
+              "name": "heroTitleB",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 96,
+              "fontWeight": "900",
+              "letterSpacing": 8
+            },
+            {
+              "type": "text",
+              "id": "l4Gig1",
+              "name": "heroSubB",
+              "fill": "#999999",
+              "content": "LUXURY REDEFINED",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "oAetU",
+              "name": "heroCTAB",
+              "stroke": {
+                "thickness": 1,
+                "fill": "#FFFFFF"
+              },
+              "padding": [
+                24,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "HG0Cq",
+                  "fill": "#FFFFFF",
+                  "content": "ENTER",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Y51lEG",
+          "name": "productsB",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "nemgk",
+              "name": "prodTitleB",
+              "fill": "#FFFFFF",
+              "content": "COLLECTION",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "xnMTb",
+              "name": "prodGridB",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "LkmtL",
+                  "name": "prodCard1B",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "O7NUq",
+                      "name": "prodImg1B",
+                      "width": 340,
+                      "height": 420,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1777985146636.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "vUqAR",
+                      "name": "prodName1B",
+                      "fill": "#FFFFFF",
+                      "content": "LEATHER JACKET",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "fcBSG",
+                      "name": "prodPrice1B",
+                      "fill": "#666666",
+                      "content": "$2,450",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "pTBOY",
+                  "name": "prodCard2B",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "m1r4tZ",
+                      "name": "prodImg2B",
+                      "width": 340,
+                      "height": 420,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1777985146030.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "f6zU6",
+                      "name": "prodName2B",
+                      "fill": "#FFFFFF",
+                      "content": "CASHMERE COAT",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "x5XJK",
+                      "name": "prodPrice2B",
+                      "fill": "#666666",
+                      "content": "$3,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "TAPv7",
+                  "name": "prodCard3B",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "hI9w9",
+                      "name": "prodImg3B",
+                      "width": 340,
+                      "height": 420,
+                      "fill": {
+                        "type": "image",
+                        "enabled": true,
+                        "url": "./images/generated-1777985159154.png",
+                        "mode": "fill"
+                      }
+                    },
+                    {
+                      "type": "text",
+                      "id": "i5WNwz",
+                      "name": "prodName3B",
+                      "fill": "#FFFFFF",
+                      "content": "SILK DRESS",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "600",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "cuONJ",
+                      "name": "prodPrice3B",
+                      "fill": "#666666",
+                      "content": "$1,890",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "iWv91",
+          "name": "aboutB",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "ky0Ae",
+              "name": "aboutTitleB",
+              "fill": "#FFFFFF",
+              "content": "OUR STORY",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "NjTWP",
+              "name": "aboutTextB",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Founded on the principles of uncompromising quality and avant-garde design, Evolution represents the pinnacle of luxury fashion. Each piece is crafted with meticulous attention to detail.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "WPcuq",
+          "name": "testimonialsB",
+          "width": "fill_container",
+          "fill": "#111111",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "U50yW",
+              "name": "testTitleB",
+              "fill": "#FFFFFF",
+              "content": "TESTIMONIALS",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "J5BrHQ",
+              "name": "testGridB",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "DKSDx",
+                  "name": "testCard1B",
+                  "width": 400,
+                  "fill": "#0A0A0A",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "Y3Wmmw",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"THE QUALITY IS UNMATCHED. EVERY PIECE FEELS LIKE A WORK OF ART.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "d2neGy",
+                      "fill": "#666666",
+                      "content": "— SARAH MITCHELL",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FF7Ok",
+                  "name": "testCard2B",
+                  "width": 400,
+                  "fill": "#0A0A0A",
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "QENuC",
+                      "fill": "#FFFFFF",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"EVOLUTION HAS TRANSFORMED MY WARDROBE. THE ATTENTION TO DETAIL IS EXTRAORDINARY.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    },
+                    {
+                      "type": "text",
+                      "id": "F0zc6",
+                      "fill": "#666666",
+                      "content": "— JAMES CHEN",
+                      "fontFamily": "Inter",
+                      "fontSize": 12,
+                      "fontWeight": "normal",
+                      "letterSpacing": 1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "YtZdO",
+          "name": "ctaB",
+          "width": "fill_container",
+          "fill": "#FFFFFF",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            160
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "chUY0",
+              "name": "ctaTitleB",
+              "fill": "#0A0A0A",
+              "content": "JOIN THE EVOLUTION",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "900",
+              "letterSpacing": 4
+            },
+            {
+              "type": "text",
+              "id": "e01sP",
+              "name": "ctaSubB",
+              "fill": "#666666",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "SUBSCRIBE FOR EXCLUSIVE ACCESS TO NEW COLLECTIONS AND LIMITED EDITIONS.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "normal",
+              "letterSpacing": 1
+            },
+            {
+              "type": "frame",
+              "id": "gXdVH",
+              "name": "ctaBtnB",
+              "fill": "#0A0A0A",
+              "padding": [
+                20,
+                40
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "JUa30",
+                  "fill": "#FFFFFF",
+                  "content": "SUBSCRIBE",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal",
+                  "letterSpacing": 2
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "ra1Rx",
+          "name": "footerB",
+          "width": "fill_container",
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "zp8VF",
+              "name": "footerLogoB",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "KY6MP",
+              "name": "footerNavB",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "tx5vs",
+                  "fill": "#666666",
+                  "content": "PRIVACY",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "b2CMs",
+                  "fill": "#666666",
+                  "content": "TERMS",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                },
+                {
+                  "type": "text",
+                  "id": "xykFr",
+                  "fill": "#666666",
+                  "content": "CONTACT",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal",
+                  "letterSpacing": 1
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "ICTEz",
+      "x": 3200,
+      "y": 0,
+      "name": "Option C - Bold Mix",
+      "width": 1440,
+      "height": 3500,
+      "fill": "#FAFAFA",
+      "layout": "vertical",
+      "children": [
+        {
+          "type": "frame",
+          "id": "OfxSt",
+          "name": "headerC",
+          "width": "fill_container",
+          "height": 64,
+          "fill": "#0A0A0A",
+          "padding": [
+            16,
+            32
+          ],
+          "justifyContent": "space_between",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "XseCz",
+              "name": "logoC",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 18,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "Z68Lq9",
+              "name": "navC",
+              "gap": 32,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "GdwPP",
+                  "fill": "#FFFFFF",
+                  "content": "Products",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "YX1WT",
+                  "fill": "#FFFFFF",
+                  "content": "About",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "KsmpN",
+                  "fill": "#FFFFFF",
+                  "content": "Services",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "k0XzL",
+                  "fill": "#FFFFFF",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "imp6x",
+          "name": "heroC",
+          "width": "fill_container",
+          "height": 900,
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 24,
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "AyJRj",
+              "name": "heroTitleC",
+              "fill": "#FFFFFF",
+              "textGrowth": "fixed-width",
+              "width": 800,
+              "content": "Redefine Luxury",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 80,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "T9DlE",
+              "name": "heroSubC",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Experience the evolution of premium fashion",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 24,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "xPh3A",
+              "name": "heroCTAC",
+              "fill": "#FFFFFF",
+              "cornerRadius": 30,
+              "padding": [
+                24,
+                48
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "f5cVHW",
+                  "fill": "#0A0A0A",
+                  "content": "Shop Collection",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "X93uOK",
+          "name": "productsC",
+          "width": "fill_container",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "BeBsH",
+              "name": "prodTitleC",
+              "fill": "#1A1A1A",
+              "content": "Featured Collection",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "J9ssj",
+              "name": "prodGridC",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "ImPPc",
+                  "name": "prodCard1C",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "pcnBV",
+                      "name": "prodImg1C",
+                      "width": 340,
+                      "height": 420,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "uDbal",
+                      "name": "prodName1C",
+                      "fill": "#1A1A1A",
+                      "content": "Leather Jacket",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "oRgbR",
+                      "name": "prodPrice1C",
+                      "fill": "#666666",
+                      "content": "$2,450",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "FjTdU",
+                  "name": "prodCard2C",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "zD0hK",
+                      "name": "prodImg2C",
+                      "width": 340,
+                      "height": 420,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "CHbeK",
+                      "name": "prodName2C",
+                      "fill": "#1A1A1A",
+                      "content": "Cashmere Coat",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "N9S3D",
+                      "name": "prodPrice2C",
+                      "fill": "#666666",
+                      "content": "$3,200",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "S2q6i",
+                  "name": "prodCard3C",
+                  "width": 340,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "XJAgf",
+                      "name": "prodImg3C",
+                      "width": 340,
+                      "height": 420,
+                      "fill": "#1A1A1A",
+                      "cornerRadius": 16
+                    },
+                    {
+                      "type": "text",
+                      "id": "yVdRP",
+                      "name": "prodName3C",
+                      "fill": "#1A1A1A",
+                      "content": "Silk Dress",
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "600"
+                    },
+                    {
+                      "type": "text",
+                      "id": "nLDR2",
+                      "name": "prodPrice3C",
+                      "fill": "#666666",
+                      "content": "$1,890",
+                      "fontFamily": "Inter",
+                      "fontSize": 16,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EcPDi",
+          "name": "aboutC",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 32,
+          "padding": [
+            80,
+            120
+          ],
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "tUSEN",
+              "name": "aboutTitleC",
+              "fill": "#FFFFFF",
+              "content": "Our Story",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "text",
+              "id": "rdIFC",
+              "name": "aboutTextC",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": 700,
+              "content": "Founded on the principles of uncompromising quality and avant-garde design, Evolution represents the pinnacle of luxury fashion. Each piece is crafted with meticulous attention to detail.",
+              "lineHeight": 1.6,
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "E3Bfhc",
+          "name": "testimonialsC",
+          "width": "fill_container",
+          "fill": "#F0F0F0",
+          "layout": "vertical",
+          "gap": 48,
+          "padding": [
+            80,
+            120
+          ],
+          "children": [
+            {
+              "type": "text",
+              "id": "XYdrS",
+              "name": "testTitleC",
+              "fill": "#1A1A1A",
+              "content": "What Our Clients Say",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 48,
+              "fontWeight": "600"
+            },
+            {
+              "type": "frame",
+              "id": "bfMhK",
+              "name": "testGridC",
+              "width": "fill_container",
+              "gap": 24,
+              "justifyContent": "center",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "Y7ijl",
+                  "name": "testCard1C",
+                  "width": 400,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "DpTeZ",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"The quality is unmatched. Every piece feels like a work of art.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "Bacsy",
+                      "fill": "#999999",
+                      "content": "— Sarah Mitchell",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "vI4Ay",
+                  "name": "testCard2C",
+                  "width": 400,
+                  "fill": "#FFFFFF",
+                  "cornerRadius": 16,
+                  "layout": "vertical",
+                  "gap": 16,
+                  "padding": 32,
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "KN0wx",
+                      "fill": "#1A1A1A",
+                      "textGrowth": "fixed-width",
+                      "width": "fill_container",
+                      "content": "\"Evolution has transformed my wardrobe. The attention to detail is extraordinary.\"",
+                      "lineHeight": 1.5,
+                      "fontFamily": "Inter",
+                      "fontSize": 18,
+                      "fontWeight": "normal"
+                    },
+                    {
+                      "type": "text",
+                      "id": "vkFij",
+                      "fill": "#999999",
+                      "content": "— James Chen",
+                      "fontFamily": "Inter",
+                      "fontSize": 14,
+                      "fontWeight": "normal"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "Vw5aW",
+          "name": "ctaC",
+          "width": "fill_container",
+          "fill": "#0A0A0A",
+          "layout": "vertical",
+          "gap": 24,
+          "padding": [
+            120,
+            160
+          ],
+          "justifyContent": "center",
+          "alignItems": "center",
+          "children": [
+            {
+              "type": "text",
+              "id": "z0SERv",
+              "name": "ctaTitleC",
+              "fill": "#FFFFFF",
+              "content": "Join the Evolution",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 56,
+              "fontWeight": "700"
+            },
+            {
+              "type": "text",
+              "id": "HaywN",
+              "name": "ctaSubC",
+              "fill": "#999999",
+              "textGrowth": "fixed-width",
+              "width": 600,
+              "content": "Subscribe for exclusive access to new collections and limited editions.",
+              "textAlign": "center",
+              "fontFamily": "Inter",
+              "fontSize": 20,
+              "fontWeight": "normal"
+            },
+            {
+              "type": "frame",
+              "id": "I2wTh",
+              "name": "ctaBtnC",
+              "fill": "#FFFFFF",
+              "cornerRadius": 30,
+              "padding": [
+                20,
+                40
+              ],
+              "children": [
+                {
+                  "type": "text",
+                  "id": "LCktF",
+                  "fill": "#0A0A0A",
+                  "content": "Subscribe Now",
+                  "fontFamily": "Inter",
+                  "fontSize": 16,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "h23GB8",
+          "name": "footerC",
+          "width": "fill_container",
+          "fill": "#1A1A1A",
+          "padding": [
+            40,
+            80
+          ],
+          "justifyContent": "space_between",
+          "children": [
+            {
+              "type": "text",
+              "id": "uFNIK",
+              "name": "footerLogoC",
+              "fill": "#FFFFFF",
+              "content": "EVOLUTION",
+              "fontFamily": "Inter",
+              "fontSize": 16,
+              "fontWeight": "700",
+              "letterSpacing": 4
+            },
+            {
+              "type": "frame",
+              "id": "DPy96",
+              "name": "footerNavC",
+              "gap": 24,
+              "children": [
+                {
+                  "type": "text",
+                  "id": "IXUs8",
+                  "fill": "#666666",
+                  "content": "Privacy",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "R5pFrz",
+                  "fill": "#666666",
+                  "content": "Terms",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                },
+                {
+                  "type": "text",
+                  "id": "JjI0c",
+                  "fill": "#666666",
+                  "content": "Contact",
+                  "fontFamily": "Inter",
+                  "fontSize": 14,
+                  "fontWeight": "normal"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
