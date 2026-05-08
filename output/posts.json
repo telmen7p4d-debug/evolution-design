@@ -1,0 +1,23 @@
+{
+  "category": { "name": "Journal", "slug": "journal" },
+  "posts": [
+    {
+      "title": "The Art of Craftsmanship: Behind Our Leather Collection",
+      "slug": "art-of-craftsmanship",
+      "excerpt": "Discover the meticulous process behind our premium leather goods, from sourcing to final stitch.",
+      "content": "<h2>The Art of Craftsmanship</h2><p>At EVOLUTION, we believe that true luxury lies in the details. Our leather collection represents the pinnacle of artisanal craftsmanship, combining traditional techniques with modern innovation.</p><p>Each piece begins with carefully selected full-grain leather sourced from Italy's most prestigious tanneries. Our master craftsmen spend hours perfecting every cut, stitch, and finish, ensuring that each item meets our exacting standards.</p><p>The result is a collection that doesn't just look beautiful – it's built to last a lifetime. From our signature leather jackets to our handcrafted accessories, every piece tells a story of dedication and artistry.</p>"
+    },
+    {
+      "title": "Autumn/Winter 2025: The Collection Preview",
+      "slug": "aw-2025-preview",
+      "excerpt": "An exclusive first look at our upcoming Autumn/Winter 2025 collection, featuring bold silhouettes and rich textures.",
+      "content": "<h2>Autumn/Winter 2025 Collection</h2><p>As the seasons change, so does our vision. The AW 2025 collection draws inspiration from the stark beauty of winter landscapes and the warm comfort of premium textiles.</p><p>This season, we're exploring oversized silhouettes paired with intricate detailing. Think structured wool overcoats with unexpected leather accents, cashmere knits in deep, moody tones, and tailored pieces that challenge conventional proportions.</p><p>Key pieces include our signature oversized leather bomber, reimagined in new colorways, and our cashmere collection featuring pieces that blur the line between outerwear and luxury loungewear.</p>"
+    },
+    {
+      "title": "Sustainable Luxury: Our Commitment to the Future",
+      "slug": "sustainable-luxury",
+      "excerpt": "How EVOLUTION is pioneering sustainable practices in luxury fashion without compromising on quality.",
+      "content": "<h2>Sustainable Luxury</h2><p>Luxury and sustainability are not mutually exclusive. At EVOLUTION, we're proving that the finest fashion can also be the most responsible.</p><p>Our commitment begins with material selection. We prioritize organic and recycled fabrics, work exclusively with suppliers who meet our ethical standards, and minimize waste through precision cutting techniques.</p><p>But sustainability isn't just about materials – it's about creating pieces that endure. Our designs are timeless, crafted to transcend seasons and trends. When you invest in an EVOLUTION piece, you're choosing quality over quantity, longevity over disposability.</p>"
+    }
+  ]
+}
