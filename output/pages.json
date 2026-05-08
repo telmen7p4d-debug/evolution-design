@@ -1,0 +1,30 @@
+[
+  {
+    "section": "hero",
+    "name": "Homepage",
+    "slug": "home",
+    "description": "Evolution luxury fashion - Homepage",
+    "content": "<h1>Welcome to EVOLUTION</h1><p>Redefining luxury fashion since 2020.</p>"
+  },
+  {
+    "section": "about",
+    "name": "About Us",
+    "slug": "about",
+    "description": "Learn about Evolution's story and values",
+    "content": "<h1>About EVOLUTION</h1><p>Founded on the principles of uncompromising quality and avant-garde design, EVOLUTION represents a new era of luxury fashion. Each piece is meticulously crafted using the finest materials sourced from around the world. From Italian leather to Mongolian cashmere, we source the world's finest materials to design collections that empower, inspire, and redefine.</p>"
+  },
+  {
+    "section": "contact",
+    "name": "Contact",
+    "slug": "contact",
+    "description": "Get in touch with Evolution",
+    "content": "<h1>Contact Us</h1><p>New York • Paris • Milan</p><p>Email: hello@evolution.com</p><p>Phone: +1 (555) 123-4567</p><p>325 Luxury Avenue, New York, NY 10001</p>"
+  },
+  {
+    "section": "gallery",
+    "name": "Gallery",
+    "slug": "gallery",
+    "description": "Explore our visual collections",
+    "content": "<h1>Gallery</h1><p>Explore our editorial collections and behind-the-scenes content.</p>"
+  }
+]
