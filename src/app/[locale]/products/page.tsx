@@ -20,6 +20,7 @@ import ProductCard from "@/components/products/ProductCard";
 import Pagination from "@/components/common/Pagination";
 import { PageLoader } from "@/components/common/Loader";
 import EmptyState from "@/components/common/EmptyState";
+import { MOCK_PRODUCTS, MOCK_CATEGORIES } from "@/lib/mock/products";
 
 type SortOption = "price-asc" | "price-desc" | "name-asc" | "name-desc" | "newest";
 
@@ -60,9 +61,9 @@ export default function ProductsPage() {
     setPage((prev) => (cursor ? prev + 1 : 1));
   }, []);
 
-  const categories = categoriesData?.poscProductCategories || [];
-  let products = productsData?.poscProducts || [];
-  const totalCount = countData?.poscProductsTotalCount || 0;
+  const categories = categoriesData?.poscProductCategories || MOCK_CATEGORIES;
+  let products = productsData?.poscProducts?.length ? productsData.poscProducts : MOCK_PRODUCTS;
+  const totalCount = countData?.poscProductsTotalCount || products.length;
 
   // Client-side sorting
   const sortedProducts = [...products].sort((a, b) => {
