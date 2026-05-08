@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getServerApolloClient } from "@/lib/apollo/server-client";
+import { getServerApolloClient, getStaticApolloClient } from "@/lib/apollo/server-client";
 import {
   POSC_PRODUCT_DETAIL,
   POSC_PRODUCTS,
@@ -58,7 +58,7 @@ export default async function ProductPage({ params }: ProductPageProps) {
 }
 
 export async function generateStaticParams() {
-  const client = await getServerApolloClient();
+  const client = getStaticApolloClient();
 
   try {
     const { data } = await client.query<PoscProductsData>({
