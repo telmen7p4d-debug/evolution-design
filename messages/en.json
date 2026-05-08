@@ -1,0 +1,122 @@
+{
+  "Home": {
+    "title": "Redefining Modern Luxury",
+    "description": "Discover the evolution of contemporary fashion. Where craftsmanship meets avant-garde design.",
+    "shopNow": "Shop Collection",
+    "explore": "Explore"
+  },
+  "Navigation": {
+    "home": "Home",
+    "shop": "Shop",
+    "about": "About",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "cart": "Cart",
+    "account": "Account",
+    "login": "Sign In",
+    "register": "Create Account",
+    "logout": "Sign Out",
+    "search": "Search",
+    "menu": "Menu"
+  },
+  "Products": {
+    "title": "Collection",
+    "subtitle": "Explore our curated selection of luxury garments",
+    "filterBy": "Filter by",
+    "sortBy": "Sort by",
+    "all": "All",
+    "noProducts": "No products found",
+    "viewDetails": "View Details",
+    "addToCart": "Add to Cart",
+    "outOfStock": "Out of Stock",
+    "price": "Price",
+    "reviews": "Reviews",
+    "relatedProducts": "You May Also Like",
+    "quantity": "Quantity",
+    "size": "Size",
+    "color": "Color",
+    "description": "Description",
+    "materials": "Materials & Care"
+  },
+  "Cart": {
+    "title": "Shopping Bag",
+    "empty": "Your bag is empty",
+    "continueShopping": "Continue Shopping",
+    "subtotal": "Subtotal",
+    "shipping": "Shipping",
+    "total": "Total",
+    "checkout": "Proceed to Checkout",
+    "remove": "Remove",
+    "update": "Update"
+  },
+  "Checkout": {
+    "title": "Checkout",
+    "shippingInfo": "Shipping Information",
+    "paymentInfo": "Payment",
+    "placeOrder": "Place Order",
+    "orderSummary": "Order Summary"
+  },
+  "Auth": {
+    "loginTitle": "Welcome Back",
+    "registerTitle": "Create Account",
+    "email": "Email",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "login": "Sign In",
+    "register": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "forgotPassword": "Forgot password?",
+    "required": "This field is required"
+  },
+  "About": {
+    "title": "Our Story",
+    "subtitle": "A journey of relentless evolution"
+  },
+  "Contact": {
+    "title": "Get in Touch",
+    "subtitle": "We'd love to hear from you",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message",
+    "success": "Message sent successfully",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Hours"
+  },
+  "Gallery": {
+    "title": "Visual Archive",
+    "subtitle": "Behind the scenes and campaign imagery"
+  },
+  "Account": {
+    "title": "My Account",
+    "orders": "Orders",
+    "profile": "Profile",
+    "wishlist": "Wishlist",
+    "settings": "Settings"
+  },
+  "Footer": {
+    "newsletter": "Join the Evolution",
+    "newsletterDesc": "Subscribe for exclusive access to new collections and private events.",
+    "subscribe": "Subscribe",
+    "emailPlaceholder": "Enter your email",
+    "customerCare": "Customer Care",
+    "shipping": "Shipping & Returns",
+    "faq": "FAQ",
+    "sizeGuide": "Size Guide",
+    "contact": "Contact",
+    "company": "Company",
+    "about": "About",
+    "careers": "Careers",
+    "press": "Press",
+    "sustainability": "Sustainability",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "cookies": "Cookie Policy",
+    "rights": "All rights reserved."
+  }
+}
