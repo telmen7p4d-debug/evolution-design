@@ -1,0 +1,29 @@
+{
+  "motion_level": 3,
+  "visual_direction": "dark-luxury",
+  "packages": [
+    "@apollo/client",
+    "@apollo/client-integration-nextjs",
+    "graphql",
+    "jotai",
+    "framer-motion",
+    "lenis"
+  ],
+  "shadcn_components": [],
+  "custom_components": [
+    "Header",
+    "Footer",
+    "ProductCard",
+    "Button",
+    "NavLink"
+  ],
+  "animation_config": {
+    "core_library": "framer-motion",
+    "scroll_library": "lenis",
+    "text_animation": "custom",
+    "page_transition": "framer",
+    "ambient_system": "css",
+    "micro_interactions": "framer-motion",
+    "gsap_plugins": []
+  }
+}
