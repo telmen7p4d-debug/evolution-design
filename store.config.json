@@ -1,0 +1,23 @@
+{
+  "name": "evolution",
+  "template_type": "ecommerce",
+  "tone": "modern",
+  "language": "en",
+  "languages": ["en"],
+  "sections": ["hero", "products", "about", "testimonials", "gallery", "contact"],
+  "client_portal_id": "thcAXZSLl2CWmcimG35_9",
+  "erxes_endpoint": "https://xaku.next.erxes.io/gateway/graphql",
+  "erxes_app_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJjbGllbnRQb3J0YWxJZCI6InRoY0FYWlNMbDJDV21jaW1HMzVfOSIsImlhdCI6MTc3Nzk4MzE3Nn0.0MvhpxvI6zm2kvcsE5xbu_9WOX6NMbHSdjspAIzwReI",
+  "erxes_cms_id": "69f9e37cf584ac54c9a0da31",
+  "color_hint": null,
+  "extra_notes": "Luxury ecommerce site inspired by Apple, Balenciaga, Rick Owens, Chrome Hearts. Minimal, premium, high-end aesthetic.",
+  "deploy_target": "github",
+  "ui_source": "website",
+  "ui_source_ref": "luxury brands like maybe balenciaga, rick owens, chrome hearts, but the main one is like apples website",
+  "design_strategy": "copy-site",
+  "reference_url": "https://www.apple.com/",
+  "competitor_urls": ["https://www.balenciaga.com/en-en"],
+  "delivery_types": ["delivery", "pickup"],
+  "allow_guest": true,
+  "pos_token": null
+}
