@@ -13,6 +13,7 @@ import {
   PoscProductSimilaritiesVariables,
 } from "@/graphql/ecommerce/queries/product";
 import ProductDetailClient from "@/components/products/ProductDetailClient";
+import { MOCK_PRODUCTS } from "@/lib/mock/products";
 
 interface ProductPageProps {
   params: Promise<{ id: string; locale: string }>;
@@ -32,6 +33,11 @@ export default async function ProductPage({ params }: ProductPageProps) {
     });
     product = productData?.poscProductDetail;
 
+    // Fallback to mock data if API returns nothing
+    if (!product) {
+      product = MOCK_PRODUCTS.find((p) => p._id === id) || null;
+    }
+
     if (!product) {
       notFound();
     }
@@ -50,8 +56,22 @@ export default async function ProductPage({ params }: ProductPageProps) {
     relatedProducts = (relatedData?.poscProducts || []).filter(
       (p) => p._id !== id
     );
+    
+    // Fallback to mock related products
+    if (relatedProducts.length === 0) {
+      relatedProducts = MOCK_PRODUCTS.filter(
+        (p) => p.category?._id === product?.category?._id && p._id !== id
+      ).slice(0, 3);
+    }
   } catch {
-    notFound();
+    // Fallback to mock data on API error
+    product = MOCK_PRODUCTS.find((p) => p._id === id) || null;
+    if (!product) {
+      notFound();
+    }
+    relatedProducts = MOCK_PRODUCTS.filter(
+      (p) => p.category?._id === product?.category?._id && p._id !== id
+    ).slice(0, 3);
   }
 
   return <ProductDetailClient product={product} relatedProducts={relatedProducts} />;
@@ -66,11 +86,20 @@ export async function generateStaticParams() {
       variables: { perPage: 100, isKiosk: true },
     });
 
-    return (data?.poscProducts || []).map((product) => ({
+    const apiProducts = data?.poscProducts || [];
+    
+    // Merge API products with mock products
+    const allProducts = apiProducts.length > 0 ? apiProducts : MOCK_PRODUCTS;
+
+    return allProducts.map((product) => ({
       id: product._id,
       locale: "en",
     }));
   } catch {
-    return [];
+    // Return mock product IDs on error
+    return MOCK_PRODUCTS.map((product) => ({
+      id: product._id,
+      locale: "en",
+    }));
   }
 }
